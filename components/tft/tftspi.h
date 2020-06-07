@@ -158,20 +158,20 @@
 
 // ** Set the correct configuration for TTGO T-Wristband
 // --------------------------------------------------------
-#define DEFAULT_DISP_TYPE           DISP_TYPE_ST7735
-#define DEFAULT_TFT_DISPLAY_WIDTH   80
+#define DEFAULT_DISP_TYPE           DISP_TYPE_ST7735R
+#define DEFAULT_TFT_DISPLAY_WIDTH   128
 #define DEFAULT_TFT_DISPLAY_HEIGHT  160
 #define DISP_COLOR_BITS_24          0x66
 #define DEFAULT_GAMMA_CURVE         0
 #define DEFAULT_SPI_CLOCK           27000000
 #define TFT_INVERT_ROTATION         0
-#define TFT_INVERT_ROTATION1        0
-#define TFT_INVERT_ROTATION2        0
+#define TFT_INVERT_ROTATION1        1
+#define TFT_INVERT_ROTATION2        1
 #define TFT_RGB_BGR                 0x08
 
 #define USE_TOUCH   TOUCH_TYPE_NONE
 
-#define PIN_NUM_MISO -1     // SPI MISO
+#define PIN_NUM_MISO  0     // SPI MISO
 #define PIN_NUM_MOSI 19     // SPI MOSI
 #define PIN_NUM_CLK  18     // SPI CLOCK pin
 #define PIN_NUM_CS    5     // Display CS pin
